@@ -8,7 +8,6 @@ public class AppMain {
 		
 		CheckFacade cliente2 = CheckFacade.getInstance();
 		cliente2.buscar("02/07/2018", "08/07/2018", "Lima", "Quito");
-		System.out.println("Resultado : " + (cliente1 == cliente2));
 	}
 
 }
